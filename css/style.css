@@ -257,6 +257,17 @@ svg * {
   --transition-duration: 0.2s;
 }
 
+body {
+  font-family: var(--font-family-base);
+  background-color: var(--color-light-alt);
+}
+
+:focus-visible {
+  outline: 2px dashed var(--color-dark);
+  outline-offset: 4px;
+  transition-duration: 0s !important;
+}
+
 .container {
   width: 100%;
   max-width: calc(var(--container-width) + var(--container-padding) * 2);
