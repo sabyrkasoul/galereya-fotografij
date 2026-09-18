@@ -240,3 +240,19 @@ svg * {
     scroll-behavior: auto !important;
   }
 }
+
+:root {
+  --color-dark: #111827;
+  --color-light: #FFFFFF;
+  --color-light-alt: #F4F6F9;
+  --color-gray: #6B7280;
+
+  --border-radius: 16px;
+
+  --font-family-base: 'Inter', sans-serif;
+
+  --container-width: 1200px;
+  --container-padding: 20px;
+
+  --transition-duration: 0.2s;
+}
